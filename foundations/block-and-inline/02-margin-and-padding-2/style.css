@@ -1,3 +1,5 @@
+/* Code given initially
+
 body {
   background: #eee;
   font-family: sans-serif;
@@ -24,4 +26,57 @@ body {
 button {
   background: white;
   border: 1px solid #eee;
+}
+
+********* My solution ***********************************/
+
+body {
+  background: #eee;
+  font-family: sans-serif;
+}
+
+.card {
+  width: 400px;
+  background: #fff;
+  margin: 16px auto;
+
+  padding: 8px;
+}
+
+.title {
+  background: #e3f4ff;
+
+  font-size: 16px;
+  padding: 8px;
+  margin-bottom: 8px;
+}
+
+.content {
+  background: #e3f4ff;
+
+  padding: 16px 8px;
+  margin-bottom: 8px;
+}
+
+.button-container {
+  background: #e3f4ff;
+
+  padding: 8px;
+}
+
+button {
+  background: white;
+  border: 1px solid #eee;
+
+  padding: 8px 24px;
+  width: 132px;
+}
+
+span{
+  width: 50px;
+}
+
+button, span{
+  display: block;
+  margin: 0 auto;
 }
